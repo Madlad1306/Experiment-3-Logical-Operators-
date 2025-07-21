@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+int main() {
+   
+    int a;
+    cout<<"Enter any integer: ";
+    cin>>a;
+    cout<<"Integer = "<<a<<" and size is "<<sizeof(a)<<" bytes"<<endl;
+   
+    float b;
+    cout<<"Enter any float value: ";
+    cin>>b;
+    cout<<"float = "<<b<<" and size is "<<sizeof(b)<<" bytes"<<endl;
+   
+    short c;
+    cout<<"Enter any short value: ";
+    cin>>c;
+    cout<<"short = "<<c<<" and size is "<<sizeof(c)<<" bytes"<<endl;
+   
+    double d;
+    cout<<"Enter any double value: ";
+    cin>>d;
+    cout<<"double = "<<d<<" and size is "<<sizeof(d)<<" bytes"<<endl;
+   
+    long double e;
+    cout<<"Enter any long double value: ";
+    cin>>e;
+    cout<<"Long Double = "<<e<<" and size is "<<sizeof(e)<<" bytes"<<endl;
+
+    return 0;
+}
+
+//Output:
+//Enter any integer: 3
+//Integer = 3 and size is 4 bytes
+//Enter any float value: 3.11
+//float = 3.11 and size is 4 bytes
+//Enter any short value: 2
+//short = 2 and size is 2 bytes
+//Enter any double value: 124560987
+//double = 1.24561e+08 and size is 8 bytes
+//Enter any long double value: 12.669096
+//Long Double = 12.6691 and size is 16 bytes
+
+
+//=== Code Execution Successful ===
